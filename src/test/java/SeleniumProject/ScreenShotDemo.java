@@ -2,7 +2,6 @@ package SeleniumProject;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.devtools.v125.page.model.Screenshot;
 import org.openqa.selenium.io.FileHandler;
 
 import java.io.File;
