@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
+
     <test verbose="2" preserve-order="true"
           name="C:/Users/Admin/IdeaProjects/TestMavenSeleniumProject/src/test/java/testngDemo4/GroupDemo2.java">
+        <groups>
+            <run>
+                <include name="sanity"/>
+                <include name="regression"/>
+            </run>
+        </groups>
         <packages>
             <package name="testngDemo4"/>
         </packages>

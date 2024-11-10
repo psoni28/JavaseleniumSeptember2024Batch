@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="13" failed="1" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-10T11:58:38 IST" name="All Test Suite" finished-at="2024-11-10T11:58:39 IST" duration-ms="209">
+    <groups>
+      <group name="regression">
+        <method signature="GroupDemo.testcase3()[pri:0, instance:testngDemo4.GroupDemo@78e94dcf]" name="testcase3" class="testngDemo4.GroupDemo"/>
+        <method signature="GroupDemo2.testcase5()[pri:0, instance:testngDemo4.GroupDemo2@3d121db3]" name="testcase5" class="testngDemo4.GroupDemo2"/>
+        <method signature="GroupDemo2.testcase7()[pri:0, instance:testngDemo4.GroupDemo2@3d121db3]" name="testcase7" class="testngDemo4.GroupDemo2"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="GroupDemo.testcase1()[pri:0, instance:testngDemo4.GroupDemo@78e94dcf]" name="testcase1" class="testngDemo4.GroupDemo"/>
+        <method signature="GroupDemo.testcase2()[pri:0, instance:testngDemo4.GroupDemo@78e94dcf]" name="testcase2" class="testngDemo4.GroupDemo"/>
+        <method signature="GroupDemo.testcase4()[pri:0, instance:testngDemo4.GroupDemo@78e94dcf]" name="testcase4" class="testngDemo4.GroupDemo"/>
+        <method signature="GroupDemo2.testcase6()[pri:0, instance:testngDemo4.GroupDemo2@3d121db3]" name="testcase6" class="testngDemo4.GroupDemo2"/>
+        <method signature="GroupDemo2.testcase8()[pri:0, instance:testngDemo4.GroupDemo2@3d121db3]" name="testcase8" class="testngDemo4.GroupDemo2"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="GroupDemo.testcase1()[pri:0, instance:testngDemo4.GroupDemo@78e94dcf]" name="testcase1" class="testngDemo4.GroupDemo"/>
+        <method signature="GroupDemo.testcase2()[pri:0, instance:testngDemo4.GroupDemo@78e94dcf]" name="testcase2" class="testngDemo4.GroupDemo"/>
+        <method signature="GroupDemo.testcase4()[pri:0, instance:testngDemo4.GroupDemo@78e94dcf]" name="testcase4" class="testngDemo4.GroupDemo"/>
+        <method signature="GroupDemo2.testcase7()[pri:0, instance:testngDemo4.GroupDemo2@3d121db3]" name="testcase7" class="testngDemo4.GroupDemo2"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-11-10T11:58:38 IST" name="C:/Users/Admin/IdeaProjects/TestMavenSeleniumProject/src/test/java/testngDemo4/GroupDemo2.java" finished-at="2024-11-10T11:58:39 IST" duration-ms="209">
+      <class name="testngDemo4.GroupDemo2">
+        <test-method signature="testcase5()[pri:0, instance:testngDemo4.GroupDemo2@3d121db3]" started-at="2024-11-10T11:58:39 IST" name="testcase5" finished-at="2024-11-10T11:58:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase5 -->
+        <test-method signature="testcase6()[pri:0, instance:testngDemo4.GroupDemo2@3d121db3]" started-at="2024-11-10T11:58:39 IST" name="testcase6" finished-at="2024-11-10T11:58:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase6 -->
+        <test-method signature="testcase8()[pri:0, instance:testngDemo4.GroupDemo2@3d121db3]" started-at="2024-11-10T11:58:39 IST" name="testcase8" finished-at="2024-11-10T11:58:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase8 -->
+        <test-method signature="testcase7()[pri:0, instance:testngDemo4.GroupDemo2@3d121db3]" started-at="2024-11-10T11:58:39 IST" name="testcase7" depends-on-groups="sanity" finished-at="2024-11-10T11:58:39 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method GroupDemo2.testcase7()[pri:0, instance:testngDemo4.GroupDemo2@3d121db3] depends on not successfully finished methods in group "sanity"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method GroupDemo2.testcase7()[pri:0, instance:testngDemo4.GroupDemo2@3d121db3] depends on not successfully finished methods in group "sanity"
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase7 -->
+      </class> <!-- testngDemo4.GroupDemo2 -->
+      <class name="testngDemo4.GroupDemo3">
+        <test-method signature="testcase9()[pri:0, instance:testngDemo4.GroupDemo3@3b07a0d6]" started-at="2024-11-10T11:58:39 IST" name="testcase9" finished-at="2024-11-10T11:58:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase9 -->
+        <test-method signature="testcase9()[pri:0, instance:testngDemo4.GroupDemo3@3b07a0d6]" started-at="2024-11-10T11:58:39 IST" name="testcase9" finished-at="2024-11-10T11:58:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase9 -->
+        <test-method signature="testcase9()[pri:0, instance:testngDemo4.GroupDemo3@3b07a0d6]" started-at="2024-11-10T11:58:39 IST" name="testcase9" finished-at="2024-11-10T11:58:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase9 -->
+        <test-method signature="testcase9()[pri:0, instance:testngDemo4.GroupDemo3@3b07a0d6]" started-at="2024-11-10T11:58:39 IST" name="testcase9" finished-at="2024-11-10T11:58:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase9 -->
+        <test-method signature="testcase9()[pri:0, instance:testngDemo4.GroupDemo3@3b07a0d6]" started-at="2024-11-10T11:58:39 IST" name="testcase9" finished-at="2024-11-10T11:58:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase9 -->
+        <test-method signature="testcase9()[pri:0, instance:testngDemo4.GroupDemo3@3b07a0d6]" started-at="2024-11-10T11:58:39 IST" name="testcase9" finished-at="2024-11-10T11:58:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase9 -->
+        <test-method signature="testcase9()[pri:0, instance:testngDemo4.GroupDemo3@3b07a0d6]" started-at="2024-11-10T11:58:39 IST" name="testcase9" finished-at="2024-11-10T11:58:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase9 -->
+        <test-method signature="testcase9()[pri:0, instance:testngDemo4.GroupDemo3@3b07a0d6]" started-at="2024-11-10T11:58:39 IST" name="testcase9" finished-at="2024-11-10T11:58:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase9 -->
+        <test-method signature="testcase9()[pri:0, instance:testngDemo4.GroupDemo3@3b07a0d6]" started-at="2024-11-10T11:58:39 IST" name="testcase9" finished-at="2024-11-10T11:58:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase9 -->
+        <test-method signature="testcase9()[pri:0, instance:testngDemo4.GroupDemo3@3b07a0d6]" started-at="2024-11-10T11:58:39 IST" name="testcase9" finished-at="2024-11-10T11:58:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase9 -->
+      </class> <!-- testngDemo4.GroupDemo3 -->
+      <class name="testngDemo4.GroupDemo">
+        <test-method signature="testcase1()[pri:0, instance:testngDemo4.GroupDemo@78e94dcf]" started-at="2024-11-10T11:58:39 IST" name="testcase1" finished-at="2024-11-10T11:58:39 IST" duration-ms="14" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[purposefully failed test case1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: purposefully failed test case1
+at org.testng.Assert.fail(Assert.java:111)
+at testngDemo4.GroupDemo.testcase1(GroupDemo.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase2()[pri:0, instance:testngDemo4.GroupDemo@78e94dcf]" started-at="2024-11-10T11:58:39 IST" name="testcase2" finished-at="2024-11-10T11:58:39 IST" depends-on-methods="testngDemo4.GroupDemo.testcase1" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testngDemo4.GroupDemo.testcase2() on instance testngDemo4.GroupDemo@78e94dcf depends on not successfully finished methods 
+[testngDemo4.GroupDemo.testcase1() on instance testngDemo4.GroupDemo@78e94dcf]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testngDemo4.GroupDemo.testcase2() on instance testngDemo4.GroupDemo@78e94dcf depends on not successfully finished methods 
+[testngDemo4.GroupDemo.testcase1() on instance testngDemo4.GroupDemo@78e94dcf]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method signature="testcase3()[pri:0, instance:testngDemo4.GroupDemo@78e94dcf]" started-at="2024-11-10T11:58:39 IST" name="testcase3" finished-at="2024-11-10T11:58:39 IST" depends-on-methods="testngDemo4.GroupDemo.testcase2" duration-ms="2" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testngDemo4.GroupDemo.testcase3() on instance testngDemo4.GroupDemo@78e94dcf depends on not successfully finished methods 
+[testngDemo4.GroupDemo.testcase2() on instance testngDemo4.GroupDemo@78e94dcf]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testngDemo4.GroupDemo.testcase3() on instance testngDemo4.GroupDemo@78e94dcf depends on not successfully finished methods 
+[testngDemo4.GroupDemo.testcase2() on instance testngDemo4.GroupDemo@78e94dcf]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+        <test-method signature="testcase4()[pri:0, instance:testngDemo4.GroupDemo@78e94dcf]" started-at="2024-11-10T11:58:39 IST" name="testcase4" finished-at="2024-11-10T11:58:39 IST" depends-on-methods="testngDemo4.GroupDemo.testcase3" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testngDemo4.GroupDemo.testcase4() on instance testngDemo4.GroupDemo@78e94dcf depends on not successfully finished methods 
+[testngDemo4.GroupDemo.testcase3() on instance testngDemo4.GroupDemo@78e94dcf]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testngDemo4.GroupDemo.testcase4() on instance testngDemo4.GroupDemo@78e94dcf depends on not successfully finished methods 
+[testngDemo4.GroupDemo.testcase3() on instance testngDemo4.GroupDemo@78e94dcf]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase4 -->
+      </class> <!-- testngDemo4.GroupDemo -->
+    </test> <!-- C:/Users/Admin/IdeaProjects/TestMavenSeleniumProject/src/test/java/testngDemo4/GroupDemo2.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

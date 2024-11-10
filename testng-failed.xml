@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/Admin/IdeaProjects/TestMavenSeleniumProject/src/test/java/testngDemo4/GroupDemo2.java(failed)">
+    <classes>
+      <class name="testngDemo4.GroupDemo2">
+        <methods>
+          <include name="testcase7"/>
+        </methods>
+      </class> <!-- testngDemo4.GroupDemo2 -->
+      <class name="testngDemo4.GroupDemo">
+        <methods>
+          <include name="testcase2"/>
+          <include name="testcase3"/>
+          <include name="testcase1"/>
+          <include name="testcase4"/>
+        </methods>
+      </class> <!-- testngDemo4.GroupDemo -->
+    </classes>
+  </test> <!-- C:/Users/Admin/IdeaProjects/TestMavenSeleniumProject/src/test/java/testngDemo4/GroupDemo2.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
